@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Cousine", Arial, Helvetica, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: #f32;
+}
+.containerMain{
+    height: 100%;
+    width: 100%;
+}
+
+.exclusivo{
+    font-family: "Tangerine", Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow:#000 4px 8px 4px ;
+}
+
+.title{
+    font-family: "Tangerine", Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    /* cor | deslocamento-x | deslocamento-y | raio-de-desfoque */
+    text-shadow:#000 4px 8px 4px ;
+}
+
+.contentHeader{
+    align-items: center;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    padding: 0.625rem 0.938rem;
+}
+
+.navegacao{
+    display: flex;
+    gap: 0rem 1.563rem;
+}
+
+.itemNav{
+    border: 2px solid #000;
+    background-color: #000;
+    border-radius: 10px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color 
+    box-shadow
+    */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    color: #f32;
+    padding: 12px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.itemNav:active{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.itemNav:hover{
+    background-color: #ff7c54;
+}
+
+.logoDinner{
+    height: 12.5rem;
+    width: 12.5rem;
+}
+
+.inicio{
+    margin-bottom: 25%
+}
+
+.h1{
+    padding: 10px 15px;
+    margin: 16px
+}
+
+.ContainerInicio{
+    align-items: center;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.cardapio{
+    margin-bottom: 25%;
+}
+
+.ConatinerCardapio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 16px;
+    justify-content: center;
+    padding: 16px;
+}
+
+.Card{
+    align-items: center;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    justify-content: center;
+    width: 400px;
+    
+}
+
+img{
+    border-radius: 28px;
+    width: 380px;
+    height: 280px;
+}
+
+.pDescricao{
+    color: #fff;
+    padding-top: 8px;
+}
+
+.pPreco{
+    color: #0f8;
+    padding-top: 8px;
+}
+
+
+.rodape{
+    background-color: #000;
+    border-top: 1px solid #f32;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 0px;
+    justify-content: space-between;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.agradecimentos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+
+
