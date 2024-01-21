@@ -21,7 +21,7 @@ a{
     font-family: "Tangerine", Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-weight: 500;
-    text-shadow:#000 4px 8px 4px ;
+    text-shadow:#000 2px 0px 4px ;
 }
 
 .title{
@@ -29,7 +29,7 @@ a{
     font-size: 80px;
     font-weight: 700;
     /* cor | deslocamento-x | deslocamento-y | raio-de-desfoque */
-    text-shadow:#000 4px 8px 4px ;
+    text-shadow:#000 4px 2px 4px ;
 }
 
 .contentHeader{
